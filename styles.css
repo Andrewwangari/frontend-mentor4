@@ -10,24 +10,32 @@ body {
     min-height: 100vh;  
     display: grid;
     place-items: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+    line-height: 1.5;
 } 
 
 .container1 {
-     border: 1px solid hsla(120, 53%, 32%, 0.678);
+     border: 1px solid hsla(120, 2%, 40%, 0.678);
      width: 600px;
      height: 400px;
      display: flex;
      flex-direction: row;
+     border: none;
+     box-shadow: 0 4px 4px rgba(63, 86, 218, 0.2);
+     border-radius: 20px;
+     
 
 }
 
 
 .container2 {
     width:300px;
-    border: 1px solid black;
+    border: none;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: hsl(0, 0%, 100%);
+    
 }
 
 .aside1 {
@@ -36,8 +44,10 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid black;
+    border: none;
     border-radius: 20px;
+    background-color: hsla(241, 81%, 54%, 0.911);
+    color: hsl(0, 0%, 100%);
   }
 
 .aside1 > div {
@@ -47,16 +57,29 @@ body {
     align-items: center;
     margin-bottom: 5px;
     margin-top: 20px;
-    width: 100px;
-    height: 100px;
-    border: 1px solid black;
+    width: 120px;
+    height: 120px;
+    
     border-radius: 50%;
+    box-shadow: hsla(241, 76%, 64%, 0.911);
+    
+    background-color: hsla(256, 72%, 46%, 1);
   } 
+
+  .aside1 > div h1 {
+    font-size: 48px; 
+  }
+  
+  .aside1 > div p {
+    font-size: 16px; 
+  }
+
 
   .aside1 p:first-child {
      margin-top: 40px;
   }
-
+  
+  
   .para2 {
           margin-top: 5px;
           margin-bottom: 20px;
@@ -80,13 +103,51 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5px;
+    border: none;
+}
+.child-div img {
+  margin-right: 10px;
+}
+
+.child-div .first-p {
+  flex-grow: 1;
+}
+.one {
+  background-color:  hsla(0, 80%, 63%, 0.068);
+}
+
+.two {
+  background-color:  hsla(39, 39%, 51%, 0.068);
+}
+
+.three {
+   background-color: hsla(166, 51%, 36%, 0.068);
+}
+.four {
+  background-color: hsla(234, 85%, 45%, 0.068);
+}
+
+.one .first-p {
+  color: hsl(0, 100%, 67%);
+}
+
+.two .first-p {
+  color: hsl(39, 100%, 56%);
+}
+
+.three .first-p {
+  color: hsl(166, 100%, 37%);
+}
+
+.four .first-p {
+  color: hsl(234, 85%, 45%);
 }
 
 
 button {
     padding: 20px 10px;
     border: none;
-    background-color: #007bff;
+    background-color: hsl(224, 30%, 27%);
     color: #fff;
     font-weight: bold;
     border-radius: 40px;
