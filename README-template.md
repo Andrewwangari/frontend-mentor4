@@ -1,111 +1,97 @@
-# Frontend Mentor - Results summary component solution
+# Results Summary Component Solution
 
-This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the Results Summary Component challenge on Frontend Mentor. The challenge helps improve coding skills by building realistic projects.
 
-## Table of contents
+## Table of Contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [The Challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+- [Development Process](#development-process)
+  - [Built With](#built-with)
+  - [Key Learnings](#key-learnings)
+  - [Continued Development](#continued-development)
+  - [Resources](#resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
-### The challenge
+### The Challenge
 
-Users should be able to:
-
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
+The challenge required creating a Results Summary component with the following features:
+- Responsive design that adapts to different screen sizes
+- Hover and focus states for interactive elements
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Screenshot](Screenshot%20from%202023-07-05%2011-06-55.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+Here's a screenshot of the solution. The design has been optimized for different screen sizes.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/results-summary-component-solution-abcdef123456)
+- [Live Site URL](https://www.example.com)
 
-## My process
+You can find the solution and a live demo at the above links.
 
-### Built with
+## Development Process
 
+### Built With
+
+The project was built using the following technologies and techniques:
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- Flexbox and CSS Grid for layout
+- Mobile-first approach for responsive design
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
-### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+### Key Learnings
 
-To see how you can add code snippets, see below:
+While working on this project, I gained valuable experience and knowledge in the following areas:
+- Implementing responsive design using media queries and CSS Grid
+- Applying hover and focus states to interactive elements using CSS
+- Utilizing styled components for modular and maintainable styling
+- Incorporating a mobile-first workflow for efficient development
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+Here's an example of some code I'm proud of:
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.button:hover {
+  background-color: #ff5500;
+  color: #ffffff;
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+This CSS snippet demonstrates the hover state style for a button.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+### Continued Development
 
-### Continued development
+In future projects, I plan to focus on the following areas:
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+    Enhancing accessibility features for better user experience
+    Exploring advanced animation techniques to bring interactivity to components
+    Improving performance through optimized code and asset management
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+### Resources
 
-### Useful resources
+Here are some resources that were helpful during the challenge:
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+    Frontend Mentor - Platform for coding challenges and community feedback
+    MDN Web Docs - Comprehensive web development documentation
+    Styled Components Documentation - Official documentation for Styled Components
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+### Author
 
-## Author
+    Website: Your Website
+    Frontend Mentor: @Andrewwangari
+    Twitter: @mandelawangari
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+###Acknowledgments
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+I would like to acknowledge the following individuals for their contributions and inspiration:
 
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+     Kelvin powell- Provided guidance and support throughout the project
+     Web Dev simplified- Inspired me with their innovative solution
